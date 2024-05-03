@@ -65,6 +65,7 @@ public void bmconfig() throws Throwable {
 	LoginPage lp = new LoginPage(driver);
 	lp.loginToApp(un, pwd);
 	System.out.println("--------Login done Successfully----------");
+	System.out.println("code change is done to check pull from Github");
 }
 @AfterMethod
 public void amconfig() {
